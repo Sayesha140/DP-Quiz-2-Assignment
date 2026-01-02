@@ -5,7 +5,7 @@ class Breakfast extends RoomDecorator {
 
     protected void confirmBooking() {
         room.confirmBooking();
-        System.out.println("Breakfast is included");
+        System.out.println("Breakfast included");
     }
 
     @Override
